@@ -1,12 +1,10 @@
-#This script is used to calculate your weight on the moon. 
-
-#Create a constant and set it equal to the moon weight differential of 1.622
+weightOnEarth = float(input("Enter your weight/mass in lb:"))
 
 
-#Ask the user to enter their weight
+weightOnMoon = round( weightOnEarth * 1.622 / 9.81 , 2)
 
 
-#Calculate the users weight on the moon (Moon weight = Earth weight * moon weight differential)
+print("Your weight on the Moon is: " + str(weightOnMoon) + "lb.")
 
 
-#Print this result to the user
+
